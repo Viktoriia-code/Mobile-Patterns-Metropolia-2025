@@ -1,0 +1,11 @@
+# Gradle build output (for every project)
+*/build/
+*/.gradle/
+
+# IDE files
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
