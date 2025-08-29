@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Lab0-StudentSystem" />
+    <file type="web" url="file://$PROJECT_DIR$/Lab1-MutableFractions" />
     <file type="web" url="file://$PROJECT_DIR$/simpleCar" />
-    <file type="web" url="file://$PROJECT_DIR$/StudentExercise" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="graalvm-jdk-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
