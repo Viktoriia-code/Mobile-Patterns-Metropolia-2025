@@ -13,11 +13,11 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/StudentExercise" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab0-StudentSystem" />
         <option name="gradleHome" value="" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/StudentExercise" />
+            <option value="$PROJECT_DIR$/Lab0-StudentSystem" />
           </set>
         </option>
       </GradleProjectSettings>
