@@ -4,6 +4,15 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab0-StudentSystem" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Lab0-StudentSystem" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Lab1-MutableFractions" />
         <option name="gradleHome" value="" />
         <option name="modules">
@@ -13,11 +22,11 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab0-StudentSystem" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab2-ImmutableFractions" />
         <option name="gradleHome" value="" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Lab0-StudentSystem" />
+            <option value="$PROJECT_DIR$/Lab2-ImmutableFractions" />
           </set>
         </option>
       </GradleProjectSettings>

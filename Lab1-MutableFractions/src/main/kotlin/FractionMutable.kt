@@ -1,6 +1,6 @@
 package org.example
 
-class FractionMutable(var numerator: Int, var denominator: Int, var sign: Int = 1) {
+class FractionMutable(private var numerator: Int, private var denominator: Int, private var sign: Int = 1) {
     init {
         if (denominator == 0) throw IllegalArgumentException("Denominator cannot be zero")
         if (numerator == 0) sign = 1
