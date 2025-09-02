@@ -3,7 +3,6 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/classExercises" />
-    <file type="web" url="file://$PROJECT_DIR$/classExercises2" />
     <file type="web" url="file://$PROJECT_DIR$/Lab0-StudentSystem" />
     <file type="web" url="file://$PROJECT_DIR$/Lab1-MutableFractions" />
     <file type="web" url="file://$PROJECT_DIR$/Lab2-ImmutableFractions" />

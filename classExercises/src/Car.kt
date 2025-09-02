@@ -1,5 +1,3 @@
-package org.example
-
 import kotlin.math.max
 import kotlin.math.min
 
@@ -24,7 +22,7 @@ class Car(val maxSpeed: Double = 120.0, val gasolineCapacity: Double = 50.0) {
     }
 }
 
-fun mainCar() {
+fun main() {
     val c1 = Car()
     val c2 = Car(120.0)
     val c3 = Car(gasolineCapacity = 50.0)

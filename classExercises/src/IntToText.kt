@@ -30,6 +30,6 @@ fun intToText(i: Int): String {
     }
 }
 
-fun mainIntToText() {
-    println(intToText(48))
+fun main() {
+    println(intToText(45))
 }
