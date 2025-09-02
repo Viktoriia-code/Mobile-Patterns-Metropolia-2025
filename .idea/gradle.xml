@@ -40,10 +40,19 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/simpleCar" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/classExercises" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/simpleCar" />
+            <option value="$PROJECT_DIR$/classExercises" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/classExercises2" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/classExercises2" />
           </set>
         </option>
       </GradleProjectSettings>
