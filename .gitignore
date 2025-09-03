@@ -1,6 +1,7 @@
 # Gradle build output (for every project)
 */build/
 */.gradle/
+out/
 
 # IDE files
 .idea/
