@@ -39,6 +39,15 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab4-MiltithreadedLotto" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Lab4-MiltithreadedLotto" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
