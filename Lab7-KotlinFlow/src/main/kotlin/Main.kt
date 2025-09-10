@@ -34,7 +34,21 @@ fun fetchUsers(): List<User> {
     return updatedUsers
 }
 
-// Main function where you will write your solution
+// Main function with my solution
 fun main() = runBlocking {
-    // TODO: Implement your Flow logic here
+    var previousActiveUserIds = setOf<Int>()
+
+    flow {
+        while (true) {
+            emit(fetchUsers())
+            delay(2000)
+        }
+    }
+    .flatMapConcat { it.asFlow() }
+    .filter { it.status == "active" && it.id !in previousActiveUserIds }
+    .onEach { previousActiveUserIds = previousActiveUserIds + it.id }
+    .catch { e -> println("Error fetching updates: ${e.message}") }
+    .collect { user ->
+        println("Update: ${user.name} is now active!")
+    }
 }
