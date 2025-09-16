@@ -1,4 +1,3 @@
-
 open class Queue<E>(val capacity: Int = 3) {
     var data: List<E> = listOf()
     val length: Int

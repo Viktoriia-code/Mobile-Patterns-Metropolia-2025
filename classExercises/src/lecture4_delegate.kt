@@ -31,17 +31,17 @@ class MyAnother() {
 }
 
 fun main() {
-var m = MyMy()
+    var m = MyMy()
 
-m.y
-m.y = 666
-m.y
+    m.y
+    m.y = 666
+    m.y
 
-val m1 = MyAnother()
-m1.str
-m1.str
+    val m1 = MyAnother()
+    m1.str
+    m1.str
 
-val m2 = MyAnother()
-m2.str
-m2.str
+    val m2 = MyAnother()
+    m2.str
+    m2.str
 }

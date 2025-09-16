@@ -20,11 +20,13 @@ val people = listOf(
 )
 
 fun main() {
-people.filter { it.age >= 18 }
-people.count { it.age >= 18 }
+    println("People: $people")
 
-val aver = if(people.isNotEmpty()) people.map { it.age }.sum().toDouble() / people.count() else null
-aver
+    println(people.filter { it.age >= 18 })
+    println(people.count { it.age >= 18 })
+
+    val aver = if(people.isNotEmpty()) people.map { it.age }.sum().toDouble() / people.count() else null
+    println("Average age: $aver years")
 }
 
 class CourseRecord(val code: String, val credits: Int = 5, val grade: Int) {
